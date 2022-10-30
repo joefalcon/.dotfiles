@@ -1,1 +1,0 @@
-/Users/joseph/dotfiles/vim/ftplugin/markdown.vim
