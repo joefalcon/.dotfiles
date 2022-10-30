@@ -1,0 +1,12 @@
+# History
+/.*history*
+.zsh_history
+
+# iJunk
+.DS_Store
+.MacOSX
+.Trash
+
+# ZSH junk
+/.zcompdump*
+/.zsh-update
