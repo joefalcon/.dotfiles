@@ -1,0 +1,29 @@
+{
+    "id": "setup-user",
+    "name": "Setup user configs",
+    "containerEnv": {
+        "RUBY_HOME": "/usr/local/rvm/rubies/default",
+        "JAVA_ROOT": "/home/jfalco/.java",
+        "NODE_ROOT": "/home/jfalco/.nodejs",
+        "PHP_ROOT": "/home/jfalco/.php",
+        "PYTHON_ROOT": "/home/jfalco/.python",
+        "RUBY_ROOT": "/home/jfalco/.ruby",
+        "MAVEN_ROOT": "/home/jfalco/.maven",
+        "HUGO_ROOT": "/home/jfalco/.hugo",
+        "DOTNET_SKIP_FIRST_TIME_EXPERIENCE": "1",
+        "NUGET_XMLDOC_MODE": "skip",
+        "ORYX_ENV_TYPE": "vsonline-present",
+        "PYTHONIOENCODING": "UTF-8",
+        "NPM_GLOBAL": "/home/jfalco/.npm-global",
+        "NVS_HOME": "/home/jfalco/.nvs",
+        "RVM_PATH": "/usr/local/rvm",
+        "RAILS_DEVELOPMENT_HOSTS": ".githubpreview.dev,.app.github.dev",
+        "GOROOT": "/usr/local/go",
+        "JUPYTERLAB_PATH": "/home/jfalco/.local/bin",
+        "PATH": "/home/jfalco/.dotnet:/home/jfalco/.nodejs/current/bin:/home/jfalco/.php/current/bin:/home/jfalco/.python/current/bin:/home/jfalco/.java/current/bin:/home/jfalco/.ruby/current/bin:/home/jfalco/.local/bin:${PATH}"
+    },
+    "install": {
+        "app": "",
+        "file": "install.sh"
+    }
+}
