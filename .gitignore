@@ -1,5 +1,5 @@
 # History
-/.*history*
+.*history*
 .zsh_history
 
 # iJunk
@@ -8,5 +8,7 @@
 .Trash
 
 # ZSH junk
-/.zcompdump*
-/.zsh-update
+.zcompdump*
+.zsh-update
+
+.vscode
