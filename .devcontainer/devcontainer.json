@@ -2,7 +2,8 @@
 {
     "name": "dev-box",
 	"shutdownAction": "none",
-	"workspaceFolder": "~/",
+    "workspaceMount": "source=/Users/joseph/workspaces,target=/home/jfalco/workspaces,type=bind,consistency=cached",
+	"workspaceFolder": "/home/jfalco/workspaces",
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "dev-box",
 	"features": {
