@@ -3,7 +3,7 @@
     "name": "dev-box",
 	"shutdownAction": "none",
 	"workspaceFolder": "~/",
-	"dockerComposeFile": "../docker-comppose.yml",
+	"dockerComposeFile": "../docker-compose.yml",
 	"service": "dev-box",
 	"features": {
         "ghcr.io/devcontainers/features/common-utils:1": {
