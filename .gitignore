@@ -8,5 +8,5 @@
 .Trash
 
 # ZSH junk
-/.zcompdump*
-/.zsh-update
+.zcompdump*
+.zsh-update
