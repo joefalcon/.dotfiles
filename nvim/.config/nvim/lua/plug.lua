@@ -42,6 +42,19 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-tree.lua"
   use "kyazdani42/nvim-web-devicons"
 
+  -- [[ Theme ]]
+  --use "mhinz/vim-startify"
+  --use "DanilaMihailov/beacon.vim"
+  --use "nvim-
+  use "shaunsingh/nord.nvim"
+  use "nvim-lualine/lualine.nvim"
+  
+  -- [[ TreeSitter ]]
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+    }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
