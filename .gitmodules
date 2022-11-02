@@ -1,0 +1,27 @@
+[submodule "zsh/.config/zsh/plugins/git-prompt.zsh"]
+	path = zsh/.config/zsh/plugins/git-prompt.zsh
+	url = https://github.com/woefe/git-prompt.zsh.git
+[submodule "zsh/.config/zsh/plugins/vi-mode.zsh"]
+	path = zsh/.config/zsh/plugins/vi-mode.zsh
+	url = https://github.com/woefe/vi-mode.zsh.git
+[submodule "zsh/.config/zsh/plugins/wbase.zsh"]
+	path = zsh/.config/zsh/plugins/wbase.zsh
+	url = https://github.com/woefe/wbase.zsh.git
+[submodule "zsh/.config/zsh/plugins/zsh-autosuggestions"]
+	path = zsh/.config/zsh/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "zsh/.config/zsh/plugins/zsh-completions"]
+	path = zsh/.config/zsh/plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "zsh/.config/zsh/plugins/zsh-history-substring-search"]
+	path = zsh/.config/zsh/plugins/zsh-history-substring-search
+	url = https://github.com/zsh-users/zsh-history-substring-search.git
+[submodule "zsh/.config/zsh/plugins/zsh-syntax-highlighting"]
+	path = zsh/.config/zsh/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "tmux/.config/tmux/plugins/tpm"]
+	path = tmux/.config/tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "nvim/.config/nvim/site/pack/packer/start/packer.nvim"]
+	path = nvim/.config/nvim/site/pack/packer/start/packer.nvim
+	url = https://github.com/wbthomason/packer.nvim.git
