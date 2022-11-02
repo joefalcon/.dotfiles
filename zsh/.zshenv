@@ -1,3 +1,5 @@
-export ZDOTDIR=$HOME/.dotfiles/zsh
+export XDG_CONFIG_HOME="$HOME/.config"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export TMUX_PLUGIN_MANAGER_PATH="$XDG_CONFIG_HOME/tmux/plugins"
+source $ZDOTDIR/.zshenv
 
-export PATH=/opt/homebrew/bin:/Users/joseph/.local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin
