@@ -6,6 +6,7 @@ export EDITOR='nvim'
 export PAGER='less'
 export BROWSER='firefox'
 export NVIMD='/Users/joseph/.dotfiles/nvim/.config/nvim'
+export DOT_FILES="$HOME/.dotfiles"
 
 export FZF_CTRL_T_COMMAND='fd --type f --hidden --exclude .git --exclude .cache'
 export FZF_ALT_C_COMMAND='fd --type d --hidden --exclude .git'

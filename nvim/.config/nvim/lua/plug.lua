@@ -1,6 +1,6 @@
 -- [[ plug.lua ]]
 
-return require('packer').startup(function(use))
+return require('packer').startup(function() use
   -- [[ Plugins Go Here ]]
 end,
 config = {

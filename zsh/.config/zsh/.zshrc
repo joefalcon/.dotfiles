@@ -1,4 +1,4 @@
-#{{{ Base config, Plugins, modules, programs config
+{{{ Base config, Plugins, modules, programs config
 
 source $ZDOTDIR/plugins/vi-mode.zsh/vi-mode.plugin.zsh
 source $ZDOTDIR/plugins/wbase.zsh/wbase.zsh
@@ -38,7 +38,7 @@ source $ZDOTDIR/plugins/zsh-history-substring-search/zsh-history-substring-searc
 #}}}
 
 
-#{{{ Keybindings
+{{{ Keybindings
 # substring search plugin
 bindkey -M main '^[OA' history-substring-search-up
 bindkey -M main '^[OB' history-substring-search-down
@@ -57,7 +57,7 @@ bindkey '^f' autosuggest-accept
 bindkey -M vicmd 'V' edit-command-line
 #}}}
 
-#{{{ Aliases
+r{{{ Aliases
 alias ...='cd ../..'
 alias cpstat='rsync -haP'
 alias datea='date +%F'
@@ -74,6 +74,7 @@ alias ssh-public-key='cat ~/.ssh/id_rsa.pub'
 alias vim='nvim'
 alias T="$TERMCMD 2>&1 > /dev/null &!"
 alias mdstat='cat /proc/mdstat'
+alias astow='stow -v --no-folding zsh tmux nvim'
 
 #}}}
 
