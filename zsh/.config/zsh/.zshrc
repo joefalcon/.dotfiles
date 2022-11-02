@@ -1,4 +1,4 @@
-{{{ Base config, Plugins, modules, programs config
+### Base config, Plugins, modules, programs config
 
 source $ZDOTDIR/plugins/vi-mode.zsh/vi-mode.plugin.zsh
 source $ZDOTDIR/plugins/wbase.zsh/wbase.zsh
@@ -35,10 +35,10 @@ source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.z
 
 # Enable fish-shell like history searching. Must be loaded after zsh-syntax-highlighting.
 source $ZDOTDIR/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
-#}}}
 
 
-{{{ Keybindings
+
+### Keybindings
 # substring search plugin
 bindkey -M main '^[OA' history-substring-search-up
 bindkey -M main '^[OB' history-substring-search-down
@@ -55,9 +55,9 @@ bindkey '^f' autosuggest-accept
 
 # edit-command-line module
 bindkey -M vicmd 'V' edit-command-line
-#}}}
 
-r{{{ Aliases
+
+### Aliases
 alias ...='cd ../..'
 alias cpstat='rsync -haP'
 alias datea='date +%F'
@@ -75,7 +75,3 @@ alias vim='nvim'
 alias T="$TERMCMD 2>&1 > /dev/null &!"
 alias mdstat='cat /proc/mdstat'
 alias astow='stow -v --no-folding zsh tmux nvim'
-
-#}}}
-
-# vim:foldmethod=marker
